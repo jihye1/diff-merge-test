@@ -3,7 +3,6 @@
 // comment line 3
 // comment line 4
 
-
 function CWE_398() { // IDENTICAL_BRANCHES
     if (x >= 0) {
         y = x;
@@ -11,3 +10,5 @@ function CWE_398() { // IDENTICAL_BRANCHES
         y = x;
     }
 }
+
+// comment line 16
