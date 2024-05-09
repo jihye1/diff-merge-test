@@ -2,7 +2,6 @@
 // comment line 2
 // comment line 3
 // comment line 4
-// comment line 5
 
 function CWE_398() { // IDENTICAL_BRANCHES
     if (x >= 0) {
