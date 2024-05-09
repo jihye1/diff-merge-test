@@ -14,3 +14,4 @@ function CWE_398() { // IDENTICAL_BRANCHES
 }
 
 // comment line 16
+// comment line 17
