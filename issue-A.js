@@ -12,3 +12,5 @@ function CWE_398() { // IDENTICAL_BRANCHES
         y = x;
     }
 }
+
+// comment line 16
