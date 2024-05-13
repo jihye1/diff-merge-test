@@ -9,3 +9,4 @@ function CWE_398() { // IDENTICAL_BRANCHES
     }
 }
 // comment
+// comment
