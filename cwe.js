@@ -5,8 +5,6 @@
 
 const a = 1;
 a = 2;
-const b = 1;
-b = 2;
 
 function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
     var arr = [1, 2, 3];
@@ -73,28 +71,4 @@ function CWE_563(url) { // UNUSED_VAR_ASSIGN
     var foo = url + "?query=deepscan"; // deepscan-disable-line UNUSED_VAR_ASSIGN
     foo = url.replace(/\s/gi, "");
     console.log(foo);
-}
-
-function CWE_628() { // TOO_MANY_ARGS
-    function add(x, y) {
-        return x + y;
-    }
-    var sum = add(1, 2, 3);
-    console.log(sum);
-}
-
-function CWE_670(x) { // STRAY_SEMICOLON
-    while (++x <= 10) ;
-    {
-        sum += x;
-    }
-}
-
-function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
-    return Math.atan2(a/b);
-}
-
-function CWE_843() { // BAD_TYPE_COERCION
-    var backPosition;
-    return "backgroundPosition: " + backPosition + "px; ";
 }
