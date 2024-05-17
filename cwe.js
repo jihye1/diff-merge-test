@@ -1,5 +1,6 @@
 // Add 1 line
 // Add 1 line
+// Add 1 line
 // This shows examples related with the Common Weakness Enumeration (CWE).
 
 const a = 1;
@@ -93,7 +94,3 @@ function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
     return Math.atan2(a/b);
 }
 
-function CWE_843() { // BAD_TYPE_COERCION
-    var backPosition;
-    return "backgroundPosition: " + backPosition + "px; ";
-}
