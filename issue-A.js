@@ -8,4 +8,3 @@ function CWE_398() { // IDENTICAL_BRANCHES
     }
 }
 // comment line
-// comment line
