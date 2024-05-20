@@ -45,14 +45,6 @@ function CWE_482_665() { // UNUSED_EXPR
     this.foo + 42; // deepscan-disable-line UNUSED_EXPR
 }
 
-function CWE_484() { // SWITCH_CASE_FALL_THROUGH
-    var x;
-    switch (x) {
-        case '1': console.log('Do one thing');
-        case '2': console.log('Do another thing');
-    }
-}
-
 function CWE_489_569_570_571() { // CONSTANT_CONDITION
     var x = "Fo";
     var y = x + "Bar";
