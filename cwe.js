@@ -2,10 +2,11 @@
 // Add 1 line
 // This shows examples related with the Common Weakness Enumeration (CWE).
 
+// Add 1 line
 const a = 1;
 a = 2;
 // Add 1 line
-const b = 1;
+const b = 1; // comment
 b = 2;
 
 function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
