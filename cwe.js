@@ -5,6 +5,7 @@
 
 const a = 1;
 a = 2;
+// Add 1 line
 const b = 1;
 b = 2;
 
@@ -25,6 +26,7 @@ function CWE_398() { // IDENTICAL_BRANCHES
 
 function CWE_476() { // NULL_POINTER
     var obj;
+    // Add 1 line
     var y = obj.x;
     console.log(y);
 }
@@ -56,6 +58,7 @@ function CWE_484() { // SWITCH_CASE_FALL_THROUGH
 
 function CWE_489_569_570_571() { // CONSTANT_CONDITION
     var x = "Fo";
+    // Add 1 line
     var y = x + "Bar";
     if (y === "FooBar") {
         console.log('Do something');
