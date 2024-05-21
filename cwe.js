@@ -6,6 +6,7 @@
 const a = 1;
 a = 2;
 // Add 1 line
+// Add 1 line
 const b = 1;
 b = 2;
 
