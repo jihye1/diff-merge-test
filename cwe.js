@@ -57,22 +57,6 @@ function CWE_484() { // SWITCH_CASE_FALL_THROUGH
     }
 }
 
-function CWE_489_569_570_571() { // CONSTANT_CONDITION
-    var x = "Fo";
-    // Add 1 line
-    var y = x + "Bar";
-    if (y === "FooBar") {
-        console.log('Do something');
-    }
-}
-
-function CWE_561() { // UNREACHABLE_CODE
-    return;
-
-    var bar = 1;
-    console.log(bar);
-}
-
 function CWE_563(url) { // UNUSED_VAR_ASSIGN
     var foo = url + "?query=deepscan"; // deepscan-disable-line UNUSED_VAR_ASSIGN
     foo = url.replace(/\s/gi, "");
@@ -98,3 +82,11 @@ function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
     return Math.atan2(a/b);
 }
 
+// New issue
+function CWE_489_569_570_571() { // CONSTANT_CONDITION
+    var x = "Fo";
+    var y = x + "Bar";
+    if (y === "FooBar") {
+        console.log('Do something');
+    }
+}
