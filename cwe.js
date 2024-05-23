@@ -102,6 +102,8 @@ function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
     return Math.atan2(a/b);
 }
 
-
 const c = 1;
 c = 2;
+
+const d = 1;
+d = 2;
