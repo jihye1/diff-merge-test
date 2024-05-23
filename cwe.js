@@ -2,8 +2,6 @@
 // Add 1 line
 // This shows examples related with the Common Weakness Enumeration (CWE).
 
-// Add 1 line
-// Add 1 line
 const a = 1;
 a = 2;
 // Add 1 line
