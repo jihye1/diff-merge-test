@@ -8,4 +8,5 @@ function CWE_398() { // IDENTICAL_BRANCHES
     }
 }
 // comment line
-// comment line
+const a = 1;
+a = 2;
