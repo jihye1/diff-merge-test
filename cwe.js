@@ -107,3 +107,8 @@ function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
 
 const c = 1;
 c = 2;
+
+
+
+const c = 1;
+c = 2;
