@@ -96,10 +96,9 @@ function CWE_670(x) { // STRAY_SEMICOLON
     }
 }
 
-function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
-    return Math.atan2(a/b);
+function FUNC_1() {
+    var arr = [1, 2, 3];
+    if (x < 0) {
+        arr[x] = 3; // ARRAY_INDEX_NEGATIVE alarm: x is negative but is used as array index.
+    }
 }
-
-
-const c = 1;
-c = 2;
