@@ -5,6 +5,9 @@ a = 2;
 const b = 1;
 b = 2;
 
+const c = 1;
+c = 2;
+
 function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
     var arr = [1, 2, 3];
     if (x < 0) {
@@ -92,7 +95,3 @@ function CWE_670(x) { // STRAY_SEMICOLON
 function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
     return Math.atan2(a/b);
 }
-
-
-const c = 1;
-c = 2;
