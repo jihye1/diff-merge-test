@@ -4,9 +4,7 @@
 
 const a = 1;
 a = 2;
-// Add 1 line
 const b = 1;
-// Add 1 line
 b = 2;
 
 function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
