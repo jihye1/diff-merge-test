@@ -80,3 +80,9 @@ function CWE_670(x) { // STRAY_SEMICOLON
     }
 }
 
+function FUNC_1() {
+    var arr = [1, 2, 3];
+    if (x < 0) {
+        arr[x] = 3; // ARRAY_INDEX_NEGATIVE alarm: x is negative but is used as array index.
+    }
+}
