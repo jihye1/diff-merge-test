@@ -80,7 +80,3 @@ function CWE_670(x) { // STRAY_SEMICOLON
     }
 }
 
-function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
-    return Math.atan2(a/b);
-}
-
