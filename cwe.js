@@ -1,10 +1,5 @@
 // This shows examples related with the Common Weakness Enumeration (CWE).
 
-const a = 1;
-a = 2;
-const b = 1;
-b = 2;
-
 function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
     var arr = [1, 2, 3];
     if (x < 0) {
