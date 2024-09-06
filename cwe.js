@@ -35,10 +35,6 @@ function CWE_480_481() { // BAD_ASSIGN_IN_CONDITION
     if (x = -1) console.log('Error!', x);
 }
 
-function CWE_482_665() { // UNUSED_EXPR
-    this.foo + 42; // deepscan-disable-line UNUSED_EXPR
-}
-
 function CWE_484() { // SWITCH_CASE_FALL_THROUGH
     var x;
     switch (x) {
