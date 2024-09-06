@@ -14,4 +14,3 @@ function CWE_480_481() { // BAD_ASSIGN_IN_CONDITION
 
 
 // comment line
-// comment line
