@@ -13,3 +13,10 @@ function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
         arr[x] = 3;
     }
 }
+
+function CWE_476() { // NULL_POINTER
+    var obj;
+    // Add 1 line
+    var y = obj.x;
+    console.log(y);
+}
