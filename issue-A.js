@@ -18,6 +18,3 @@ function CWE_480_481() { // BAD_ASSIGN_IN_CONDITION
     if (x = -1) console.log('Error!', x);
 }
 
-
-// comment line
-// comment line
