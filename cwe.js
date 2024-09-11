@@ -1,13 +1,4 @@
-// Add 1 line
-// Add 1 line
 // This shows examples related with the Common Weakness Enumeration (CWE).
-
-const a = 1;
-a = 2;
-// Add 1 line
-const b = 1;
-// Add 1 line
-b = 2;
 
 function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
     var arr = [1, 2, 3];
@@ -44,10 +35,6 @@ function CWE_480_481() { // BAD_ASSIGN_IN_CONDITION
     if (x = -1) console.log('Error!', x);
 }
 
-function CWE_482_665() { // UNUSED_EXPR
-    this.foo + 42; // deepscan-disable-line UNUSED_EXPR
-}
-
 function CWE_484() { // SWITCH_CASE_FALL_THROUGH
     var x;
     switch (x) {
@@ -55,12 +42,7 @@ function CWE_484() { // SWITCH_CASE_FALL_THROUGH
         case '2': console.log('Do another thing');
     }
 }
-// Add 1 line
-// Add 1 line
-// Add 1 line
-// Add 1 line
-// Add 1 line
-// Add 1 line
+
 function CWE_489_569_570_571() { // CONSTANT_CONDITION
     var x = "Fo";
     // Add 1 line
