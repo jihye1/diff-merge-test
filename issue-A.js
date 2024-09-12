@@ -18,6 +18,14 @@ function CWE_480_481() { // BAD_ASSIGN_IN_CONDITION
     if (x = -1) console.log('Error!', x);
 }
 
+function CWE_628() { // TOO_MANY_ARGS
+    function add(x, y) {
+        return x + y;
+    }
+    var sum = add(1, 2, 3);
+    console.log(sum);
+}
+
 
 // comment line
 // comment line
