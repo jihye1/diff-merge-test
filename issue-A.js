@@ -29,3 +29,4 @@ function CWE_628() { // TOO_MANY_ARGS
 
 // comment line
 // comment line
+// comment line
