@@ -79,3 +79,5 @@ function CWE_670(x) { // STRAY_SEMICOLON
         sum += x;
     }
 }
+
+// comment out
