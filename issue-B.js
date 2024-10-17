@@ -21,3 +21,10 @@ function CWE_476() { // NULL_POINTER
     console.log(y);
 }
 
+function CWE_489_569_570_571() { // CONSTANT_CONDITION
+    var x = "Fo";
+    var y = x + "Bar";
+    if (y === "FooBar") {
+        console.log('Do something');
+    }
+}
