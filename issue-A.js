@@ -33,12 +33,12 @@ function CWE_628() { // TOO_MANY_ARGS
     console.log(sum);
 }
 
-function CWE_670(x) { // STRAY_SEMICOLON
-    while (++x <= 10) ;
-    {
-        sum += x;
-    }
-}
+// function CWE_670(x) { // STRAY_SEMICOLON
+//     while (++x <= 10) ;
+//     {
+//         sum += x;
+//     }
+// }
 
 // comment line
 // comment line
