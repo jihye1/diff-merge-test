@@ -4,4 +4,4 @@
 * update branch wih rebase
 * test
 * test
-
+* null message test
