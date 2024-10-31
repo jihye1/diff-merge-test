@@ -4,4 +4,3 @@
 * update branch wih rebase
 * test
 * test
-* trivial case
