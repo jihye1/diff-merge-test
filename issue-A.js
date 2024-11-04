@@ -40,8 +40,6 @@ function CWE_480_481() { // BAD_ASSIGN_IN_CONDITION
 //     }
 // }
 
-// comment line
-// comment line
 
 // function CWE_843() { // BAD_TYPE_COERCION
 //     var backPosition;
