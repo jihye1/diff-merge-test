@@ -60,7 +60,7 @@ function CWE_561() { // UNREACHABLE_CODE
 }
 
 function CWE_563(url) { // UNUSED_VAR_ASSIGN
-    var foo = url + "?query=deepscan"; // deepscan-disable-line UNUSED_VAR_ASSIGN
+    var foo = url + "?query=deepscan";
     foo = url.replace(/\s/gi, "");
     console.log(foo);
 }
@@ -79,3 +79,10 @@ function CWE_670(x) { // STRAY_SEMICOLON
         sum += x;
     }
 }
+
+function CWE_563(url) { // UNUSED_VAR_ASSIGN
+    var foo = url + "?query=deepscan";
+    foo = url.replace(/\s/gi, "");
+    console.log(foo);
+}
+
