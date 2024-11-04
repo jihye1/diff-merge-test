@@ -73,16 +73,16 @@ function CWE_628() { // TOO_MANY_ARGS
     console.log(sum);
 }
 
-function CWE_670(x) { // STRAY_SEMICOLON
-    while (++x <= 10) ;
-    {
-        sum += x;
-    }
-}
+// function CWE_670(x) { // STRAY_SEMICOLON
+//     while (++x <= 10) ;
+//     {
+//         sum += x;
+//     }
+// }
 
-function FUNC_1() {
-    var arr = [1, 2, 3];
-    if (x < 0) {
-        arr[x] = 3; // ARRAY_INDEX_NEGATIVE alarm: x is negative but is used as array index.
-    }
-}
+function CWE_670(x) { // STRAY_SEMICOLON
+     while (++x <= 10) ;
+     {
+         sum += x;
+     }
+ }
