@@ -32,17 +32,17 @@ function CWE_628() { // TOO_MANY_ARGS
     console.log(sum);
 }
 
-// function CWE_670(x) { // STRAY_SEMICOLON
-//     while (++x <= 10) ;
-//     {
-//         sum += x;
-//     }
-// }
-
-// comment line
-// comment line
-
-function CWE_843() { // BAD_TYPE_COERCION
-    var backPosition;
-    return "backgroundPosition: " + backPosition + "px; ";
+function CWE_670(x) { // STRAY_SEMICOLON
+    while (++x <= 10) ;
+    {
+        sum += x;
+    }
 }
+
+// comment line
+// comment line
+
+// function CWE_843() { // BAD_TYPE_COERCION
+//     var backPosition;
+//     return "backgroundPosition: " + backPosition + "px; ";
+// }
