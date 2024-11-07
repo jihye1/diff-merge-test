@@ -1,3 +1,4 @@
+
  function CWE_398() { // IDENTICAL_BRANCHES
      if (x >= 0) {
          y = x;
@@ -5,7 +6,6 @@
          y = x;
      }
  }
-
 
 function CWE_482_665() { // UNUSED_EXPR
     this.foo + 42; // deepscan-disable-line UNUSED_EXPR
@@ -38,9 +38,6 @@ function CWE_670(x) { // STRAY_SEMICOLON
         sum += x;
     }
 }
-
-// comment line
-// comment line
 
 // function CWE_843() { // BAD_TYPE_COERCION
 //     var backPosition;
