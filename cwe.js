@@ -52,6 +52,14 @@ function CWE_489_569_570_571() { // CONSTANT_CONDITION
     }
 }
 
+function CWE_670(x) { // STRAY_SEMICOLON
+    while (++x <= 10) ;
+    {
+        sum += x;
+    }
+}
+
+    
 function CWE_561() { // UNREACHABLE_CODE
     return;
 
@@ -65,9 +73,9 @@ function CWE_563(url) { // UNUSED_VAR_ASSIGN
     console.log(foo);
 }
 
-function CWE_670(x) { // STRAY_SEMICOLON
-    while (++x <= 10) ;
-    {
-        sum += x;
-    }
-}
+// function CWE_670(x) { // STRAY_SEMICOLON
+//     while (++x <= 10) ;
+//     {
+//         sum += x;
+//     }
+// }
