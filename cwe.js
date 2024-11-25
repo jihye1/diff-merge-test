@@ -59,23 +59,23 @@ function CWE_561() { // UNREACHABLE_CODE
     console.log(bar);
 }
 
-// function CWE_563(url) { // UNUSED_VAR_ASSIGN
-//     var foo = url + "?query=deepscan"; // deepscan-disable-line UNUSED_VAR_ASSIGN
-//     foo = url.replace(/\s/gi, "");
-//     console.log(foo);
-// }
-
-// function CWE_628() { // TOO_MANY_ARGS
-//     function add(x, y) {
-//         return x + y;
-//     }
-//     var sum = add(1, 2, 3);
-//     console.log(sum);
-// }
-
-function CWE_670(x) { // STRAY_SEMICOLON
-    while (++x <= 10) ;
-    {
-        sum += x;
-    }
+function CWE_563(url) { // UNUSED_VAR_ASSIGN
+    var foo = url + "?query=deepscan"; // deepscan-disable-line UNUSED_VAR_ASSIGN
+    foo = url.replace(/\s/gi, "");
+    console.log(foo);
 }
+
+function CWE_628() { // TOO_MANY_ARGS
+    function add(x, y) {
+        return x + y;
+    }
+    var sum = add(1, 2, 3);
+    console.log(sum);
+}
+
+// function CWE_670(x) { // STRAY_SEMICOLON
+//     while (++x <= 10) ;
+//     {
+//         sum += x;
+//     }
+// }
