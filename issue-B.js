@@ -37,12 +37,3 @@ function CWE_489_569_570_571() { // CONSTANT_CONDITION
     }
 }
 
-
-
-function CWE_489_569_570_571() { // CONSTANT_CONDITION
-    var x = "Fo";
-    var y = x + "Bar";
-    if (y === "FooBar") {
-        console.log('Do something');
-    }
-}
