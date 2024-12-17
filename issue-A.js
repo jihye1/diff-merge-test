@@ -43,3 +43,8 @@ function CWE_670(x) { // STRAY_SEMICOLON
 //     var backPosition;
 //     return "backgroundPosition: " + backPosition + "px; ";
 // }
+
+function CWE_843() { // BAD_TYPE_COERCION
+    var backPosition;
+    return "backgroundPosition: " + backPosition + "px; ";
+}
