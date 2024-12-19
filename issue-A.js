@@ -48,3 +48,11 @@ function CWE_843() { // BAD_TYPE_COERCION
     var backPosition;
     return "backgroundPosition: " + backPosition + "px; ";
 }
+
+function CWE_398() { // IDENTICAL_BRANCHES
+    if (x >= 0) {
+        y = x;
+    } else {
+        y = x;
+    }
+}
