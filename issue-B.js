@@ -37,3 +37,9 @@ function CWE_489_569_570_571() { // CONSTANT_CONDITION
     }
 }
 
+function CWE_476() { // NULL_POINTER
+    var obj;
+    // Add 1 line
+    var y = obj.x;
+    console.log(y);
+}
